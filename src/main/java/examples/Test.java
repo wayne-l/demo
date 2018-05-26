@@ -19,6 +19,8 @@ public class Test {
         BufferedReader br = null;
         FileWriter writer = null;
         BufferedWriter bw = null;
+        //amend use
+        //amend 2
         try {
             reader = new FileReader("/Users/wangyulong/Documents/working/orderFlow.txt");
             br = new BufferedReader(reader);
