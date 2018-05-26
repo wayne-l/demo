@@ -12,7 +12,7 @@ import java.util.List;
 public class Test {
 
     public static void main(String args[]) {
-
+        //begin
         FileReader reader = null;
         BufferedReader br = null;
         FileWriter writer = null;
@@ -24,7 +24,6 @@ public class Test {
             String str = null;
             List<String> result = new ArrayList<String>();
             while ((str = br.readLine()) != null) {
-
                 result.add(str);
             }
             for(int j = 0; j < 8; j++){
@@ -52,14 +51,6 @@ public class Test {
                     }
                 }
             }
-
-
-
-
-
-
-
-
 
         } catch (Exception e) {
             e.printStackTrace();
