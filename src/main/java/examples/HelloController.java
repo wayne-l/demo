@@ -8,4 +8,9 @@ public class HelloController {
     public String index(){
         return "index";
     }
+
+    @RequestMapping("/life")
+    public String life(){
+        return "life";
+    }
 }
